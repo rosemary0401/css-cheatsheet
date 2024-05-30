@@ -1,0 +1,50 @@
+<style>
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.flex-container .item:first-child {
+    margin-left: auto;
+}
+
+.flex-container .item:last-child {
+    margin-right: auto;
+}
+/* Code that matters
+ * :END
+*/
+
+.item {
+    font-size: 1.3rem;
+    border: 1px solid #ccc;
+    background-color: #eee;
+    padding: 0.7rem 1rem;
+    margin: 1rem;
+    border-radius: 10rem;
+    color: #000;
+    text-decoration: none;
+}
+</style>
+<!-- Supplementary demo for my blog post:
+
+https://bhch.github.io/posts/2021/04/centring-flex-items-and-allowing-overflow-scroll/
+
+Read post for explanation.
+-->
+
+<div class="container">
+
+  <div class="flex-container">
+    <div class="item">First item</div>
+    <div class="item">Second item</div>
+    <div class="item">Third item</div>
+    <div class="item">Fourth item</div>
+    <div class="item">Fifth item</div>
+    <div class="item">Sixth item</div>
+  </div>
+  
+</div>
+
